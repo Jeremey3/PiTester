@@ -11,7 +11,7 @@ def main():
     screen = pygame.display.set_mode((display_info.current_w, display_info.current_h), pygame.FULLSCREEN)
 
     # Load the video file using moviepy
-    video_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "testvid.mp4")
+    video_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Testvid.mp4")
     video_clip = VideoFileClip(video_path)
 
     # Play the video fullscreen
